@@ -1,5 +1,3 @@
-
-
 #Indentation : it means giving spaces at the begining of a line 
 age=18
 if age >=18:
