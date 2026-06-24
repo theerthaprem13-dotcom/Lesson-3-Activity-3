@@ -1,4 +1,4 @@
-import math
+
 
 #Indentation : it means giving spaces at the begining of a line 
 age=18
@@ -52,9 +52,3 @@ if num2>num3:
 else:
     print(num3,"is grater than",num2)
 
-number9=int(input("enter a number:"))
-number6=math.sqrt(number9)
-print(number6)
-number8=int(input("enter a number:"))
-number1=number8**0.5
-print(number1)
