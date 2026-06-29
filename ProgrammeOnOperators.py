@@ -67,7 +67,22 @@ print("Scale" in bag5)
 print("Scale" not in bag5)
 
 #Binary numbers and bits: 0-1 bit 1-1 bit 8 bits-1 bite
+'''
+16 8 4 2 1
+ 1 0 0 1 1
 
+Multiply
+
+1 × 16 = 16
+0 × 8 = 0
+0 × 4 = 0
+1 × 2 = 2
+1 × 1 = 1
+
+Add
+
+16 + 2 + 1 = 19
+'''
 #Bit wise rule:
 
 
