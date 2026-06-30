@@ -120,5 +120,37 @@ elif age2<10:
 else:
     print("You are a teen")
 
+#Nested if,else condition:
+
+age3=int(input("Enter your age:"))
+marks=int(input("Enter your marks:"))
+
+if age3>=18:
+    if marks>=60:
+        print("Admission granted")
+    else:
+        print("Admission rejected because of low marks")
+else:
+    print("You are not eligable because of you are too young")
+
+# Assignement:Write a programme to calculate the electricity bill. The bill is calculated by checking the number of units consumed.Suppose the user is consuming less than 50 units. The per-unit cost will 2.60 and the tax on that bill will be 25.If a user is cosuming more than 50 units the per unit cost will be 3.25 and the tax on that  bill will be 35. If the user is coming more than 100 and less than 200, then the per unit cost will be 5.26 and the tax will be 45. And above 200, the cost will be 8.45 and the tax is 75.
+
+unit=int(input("Please enter number of units you consumed: "))
+print("The units consumed is", unit)
+
+if unit<50:
+    amount=unit*2.60+25
+    print("The amount you have to pay this month is",amount)
+elif unit<50 and unit>100:
+    amount1=float(130+((unit-50)*3.25+35))
+    print("The amount you have to pay this month is",amount1)
+elif unit<200:
+    amount2=float(130+162.50((unit-100)*5.26+45))
+    print("The amount you have to pay this month is", amount2)
+else:
+    amount3=float(130+162.50+526((unit-200)*8.45+75))
+
+
+
 
 
