@@ -141,14 +141,16 @@ print("The units consumed is", unit)
 if unit<50:
     amount=unit*2.60+25
     print("The amount you have to pay this month is",amount)
-elif unit<50 and unit>100:
-    amount1=float(130+((unit-50)*3.25+35))
+elif unit>50 and unit<100:
+    amount1=130+((unit-50)*3.25)+35
     print("The amount you have to pay this month is",amount1)
 elif unit<200:
-    amount2=float(130+162.50((unit-100)*5.26+45))
+    amount2=130+162.50+((unit-100)*5.26+45)
     print("The amount you have to pay this month is", amount2)
 else:
-    amount3=float(130+162.50+526((unit-200)*8.45+75))
+    amount3=130+162.50+526((unit-200)*8.45+75)+85
+    
+
 
 
 
