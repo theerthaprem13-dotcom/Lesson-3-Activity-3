@@ -16,14 +16,15 @@ print("Ater sorting",num_list)
 #Function to check weather the 1st and lat chararacter of words match
 
 def match_words(words):
-    ctr=0
-    list_of_words=[]
+ ctr=0
+ list_of_words=[]
     
-for word in words:
+ for word in words:
     if len(word)>1 and word[0]==word[-1]:
-        ctr+=1
-        list_of_words.append(word)
-print("List of word with the first and last character is same:",list_of_words) 
-return ctr
+     ctr+=1
+     list_of_words.append(word)
+ print("List of word with the first and last character is same:",list_of_words) 
+ return ctr
 
-count=match_words(['abc','def','ghi','jkl','mno'])
+count=match_words(['abc','cbf','ghg','jkl','mno','aba'])
+
